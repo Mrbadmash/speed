@@ -74,13 +74,13 @@ def jalan(z):
         time.sleep(0.05)
 
 
-logo = '\n\x1b[1;93m+---------------------------------------------------------------------+\n\x1b[1;91m\x1b[42m///////////////////////////////////////////////////////////////////////\x1b[00m\n\x1b[1;97m\x1b[41m+--------------------------SHOHAG--AHSAN--JOY-------------------------+\x1b[41m\n\x1b[1;91m\x1b[42m///////////////////////////////////////////////////////////////////////\x1b[00m\x1b[1;92m\n+---------------------------------------------------------------------+\n\x1b[1;92m               _____ _    _  ____  _    _          _____  \n\x1b[1;96m              / ____| |  | |/ __ \\| |  | |   /\\   / ____|\n\x1b[1;93m             | (___ | |__| | |  | | |__| |  /  \\ | |  __ \n\x1b[1;95m              \\___ \\|  __  | |  | |  __  | / /\\ \\| | |_ |\n\x1b[1;91m              ____) | |  | | |__| | |  | |/ ____ \\ |__| |\n\x1b[1;94m             |_____/|_|  |_|\\____/|_|  |_/_/    \\_\\_____|\n\x1b[1;96m+---------------------------------------------------------------------+\n\x1b[1;97m\x1b[41m     HACKING--IS`T--CRIME--IT`S--A--GAME--AGAINST--OF--THE--SYSTEM     \x1b[00m'
+logo = '\n\x1b[1;93m+---------------------------------------------------------------------+\n\x1b[1;91m\x1b[42m///////////////////////////////////////////////////////////////////////\x1b[00m\n\x1b[1;97m\x1b[41m+--------------------------IJAXO--HACKER--AHK-------------------------+\x1b[41m\n\x1b[1;91m\x1b[42m///////////////////////////////////////////////////////////////////////\x1b[00m\x1b[1;92m\n+---------------------------------------------------------------------+\n\x1b[1;92m               _____ _    _  ____  _    _          _____  \n\x1b[1;96m              / ____| |  | |/ __ \\| |  | |   /\\   / ____|\n\x1b[1;93m             | (___ | |__| | |  | | |__| |  /  \\ | |  __ \n\x1b[1;95m              \\___ \\|  __  | |  | |  __  | / /\\ \\| | |_ |\n\x1b[1;91m              ____) | |  | | |__| | |  | |/ ____ \\ |__| |\n\x1b[1;94m             |_____/|_|  |_|\\____/|_|  |_/_/    \\_\\_____|\n\x1b[1;96m+---------------------------------------------------------------------+\n\x1b[1;97m\x1b[41m     HACKING--IS`T--CRIME--IT`S--A--GAME--AGAINST--OF--THE--SYSTEM     \x1b[00m'
 
 def tik():
     titik = [
      '.   ', '..  ', '... ']
     for o in titik:
-        print '\r\x1b[1;97m[+] \x1b[1;97mSedang Login \x1b[1;97m' + o,
+        print '\r\x1b[1;97m[+] \x1b[1;97mCurrently Login \x1b[1;97m' + o,
         sys.stdtoket.flush()
         time.sleep(1)
 
@@ -220,7 +220,7 @@ def menu():
     print '\x1b[1;96m+---------------------------------------------------------------------+\n\x1b[1;96m+-------------------------\x1b[1;97m[\x1b[1;93mWelcome\x1b[1;97m][\x1b[1;92m>' + nama + '<\x1b[1;97m]\x1b[1;96m---------------------+\n\x1b[1;96m+---------------------------------------------------------------------+'
     print '\n\x1b[1;96m\x1b[1;96m+-----------------------[1] Start Crack '
     print '\x1b[1;92m+-----------------------[2]>Search For Facebook Username & ID '
-    print '\x1b[1;93m+-----------------------[3]>Contact:- Shohag Ahsan Joy'
+    print '\x1b[1;93m+-----------------------[3]>Contact:- IJAXO HACKER AHK'
     print '\x1b[1;95m+-----------------------[4]>Update tools'
     print '\x1b[1;91m+-----------------------[0]>Logout'
     print 71 * '-'
@@ -480,8 +480,8 @@ def grup():
     os.system('clear')
     print logo
     print 71 * '-'
-    print '\n\x1b[1;96m\n+-----------------------[1] \xe2\x9d\xa4 Shohag Ahsan Joy (Facebook) \xe2\x9d\xa4'
-    print '\x1b[1;92m\n+-----------------------[2] \xe2\x9d\xa4 Shohag Ahsan Joy (Youtube) \xe2\x9d\xa4'
+    print '\n\x1b[1;96m\n+-----------------------[1] \xe2\x9d\xa4 Muhammad Ijaz(Facebook) \xe2\x9d\xa4'
+    print '\x1b[1;92m\n+-----------------------[2] \xe2\x9d\xa4 Afridi Tricks(Youtube) \xe2\x9d\xa4'
     print '\x1b[1;93m\n+-----------------------[0] Back'
     print 71 * '-'
     pilih_grup()
@@ -496,13 +496,13 @@ def pilih_grup():
         os.system('clear')
         print logo
         print 71 * '-'
-        os.system('xdg-open https://www.facebook.com/Shohag.ahsan.joy.official.143/')
+        os.system('xdg-open https://www.facebook.com/Afridi404/')
         grup()
     elif gc == '2':
         os.system('clear')
         print logo
         print 71 * '-'
-        os.system('xdg-open https://www.youtube.com/c/SHOHAGAHSANJOY')
+        os.system('xdg-open https://youtube.com/channel/UCCyRQcvCFo1ZgH4NaJM-qNw')
         grup()
     elif gc == '0':
         menu()
